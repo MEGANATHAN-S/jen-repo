@@ -1,12 +1,12 @@
 pipeline{
     agent any
     stages{
-        stage("print name"){
+        stage('print name'){
             steps{
                 echo"meganathan"
             }
         }
-        stage("age"){
+        stage('age'){
             steps{
                 echo"21"
             }
